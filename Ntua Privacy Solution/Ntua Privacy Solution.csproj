@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2F6CA5F-55DF-4415-8422-4DC0ABB4AAC6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ntua_Privacy_Solution</RootNamespace>
+    <AssemblyName>Ntua Privacy Solution</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pages\finalPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\finalPage.Designer.cs">
+      <DependentUpon>finalPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page01.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page01.Designer.cs">
+      <DependentUpon>page01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page10.Designer.cs">
+      <DependentUpon>page10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page11.Designer.cs">
+      <DependentUpon>page11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page12.Designer.cs">
+      <DependentUpon>page12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page13.Designer.cs">
+      <DependentUpon>page13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page14.Designer.cs">
+      <DependentUpon>page14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page15.Designer.cs">
+      <DependentUpon>page15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page02a.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page02a.Designer.cs">
+      <DependentUpon>page02a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page02b.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page02b.Designer.cs">
+      <DependentUpon>page02b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page03a.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page03a.Designer.cs">
+      <DependentUpon>page03a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page03b.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page03b.Designer.cs">
+      <DependentUpon>page03b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page04.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page04.Designer.cs">
+      <DependentUpon>page04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page05.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page05.Designer.cs">
+      <DependentUpon>page05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page06.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page06.Designer.cs">
+      <DependentUpon>page06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page07.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page07.Designer.cs">
+      <DependentUpon>page07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page08.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page08.Designer.cs">
+      <DependentUpon>page08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pages\page09.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pages\page09.Designer.cs">
+      <DependentUpon>page09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="questionBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="questionBase.Designer.cs">
+      <DependentUpon>questionBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage01.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage01.Designer.cs">
+      <DependentUpon>spage01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage10.Designer.cs">
+      <DependentUpon>spage10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage11.Designer.cs">
+      <DependentUpon>spage11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage12.Designer.cs">
+      <DependentUpon>spage12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage13.Designer.cs">
+      <DependentUpon>spage13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage14.Designer.cs">
+      <DependentUpon>spage14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage15.Designer.cs">
+      <DependentUpon>spage15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage16.Designer.cs">
+      <DependentUpon>spage16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage17.Designer.cs">
+      <DependentUpon>spage17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage18.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage18.Designer.cs">
+      <DependentUpon>spage18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage02.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage02.Designer.cs">
+      <DependentUpon>spage02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage03.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage03.Designer.cs">
+      <DependentUpon>spage03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage04.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage04.Designer.cs">
+      <DependentUpon>spage04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage05.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage05.Designer.cs">
+      <DependentUpon>spage05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage06.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage06.Designer.cs">
+      <DependentUpon>spage06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage07.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage07.Designer.cs">
+      <DependentUpon>spage07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage08.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage08.Designer.cs">
+      <DependentUpon>spage08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sol_pages\spage09.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sol_pages\spage09.Designer.cs">
+      <DependentUpon>spage09.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="pages\finalPage.resx">
+      <DependentUpon>finalPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page01.resx">
+      <DependentUpon>page01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page10.resx">
+      <DependentUpon>page10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page11.resx">
+      <DependentUpon>page11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page12.resx">
+      <DependentUpon>page12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page13.resx">
+      <DependentUpon>page13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page14.resx">
+      <DependentUpon>page14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page15.resx">
+      <DependentUpon>page15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page02a.resx">
+      <DependentUpon>page02a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page02b.resx">
+      <DependentUpon>page02b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page03a.resx">
+      <DependentUpon>page03a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page03b.resx">
+      <DependentUpon>page03b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page04.resx">
+      <DependentUpon>page04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page05.resx">
+      <DependentUpon>page05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page06.resx">
+      <DependentUpon>page06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page07.resx">
+      <DependentUpon>page07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page08.resx">
+      <DependentUpon>page08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pages\page09.resx">
+      <DependentUpon>page09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="questionBase.resx">
+      <DependentUpon>questionBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%28α, k%29-Anonymity sq16.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ldiversity sq18.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="c,t isolation sq7.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confidence bounding sq15.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="d,g privacy sq3.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="e,m anonymity sq11.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="e-Differential Privacy sq1.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ffAnonymity sq10.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="k,e -anonymity sq12.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="k-anonymity sq4.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="km anonymity sq8.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lkc sq13.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="m-Invariance sq9.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiRelational k-Anonymity sq6.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personalized Privacy Preservation sq14.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="sol_pages\spage01.resx">
+      <DependentUpon>spage01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage10.resx">
+      <DependentUpon>spage10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage11.resx">
+      <DependentUpon>spage11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage12.resx">
+      <DependentUpon>spage12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage13.resx">
+      <DependentUpon>spage13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage14.resx">
+      <DependentUpon>spage14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage15.resx">
+      <DependentUpon>spage15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage16.resx">
+      <DependentUpon>spage16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage17.resx">
+      <DependentUpon>spage17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage18.resx">
+      <DependentUpon>spage18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage02.resx">
+      <DependentUpon>spage02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage03.resx">
+      <DependentUpon>spage03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage04.resx">
+      <DependentUpon>spage04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage05.resx">
+      <DependentUpon>spage05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage06.resx">
+      <DependentUpon>spage06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage07.resx">
+      <DependentUpon>spage07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage08.resx">
+      <DependentUpon>spage08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sol_pages\spage09.resx">
+      <DependentUpon>spage09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Οδηγίες για τον οδηγό.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="δ-Presence sq2.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t_closeness sq17.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="x,y  privacy sq5.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WizardFormLib\WizardFormLib.csproj">
+      <Project>{88B8AF73-300C-4E35-9C2E-021D87D896A5}</Project>
+      <Name>WizardFormLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NTUA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Ας θεωρήσουμε σαν παράδειγμα έναν πίνακα ιατρικών δεδομένων όπου το 95% των εγγραφών έχει γρίπη, ενώ το υπόλοιπο 5% έχει καρκίνο. Μια κλάση ισοδυναμίας ικανοποιεί την 2-ποικιλομορφία αν υποθέσουμε πως το 50% των εγγραφών έχει γρίπη και 50% καρκίνο. Σε αυτή την κλάση επομένως η πιθανότητα κάποιος να έχει καρκίνο είναι πολύ μεγαλύτερη από την αρχική της τάξεως του 5% και επομένως ο επιτιθέμενος έχει αποκτήσει πληροφορίες που δεν είχε προηγουμένως. Αυτό συμβαίνει όταν η συνολική κατανομή είναι ανομοιόμορφη. Στις περιπτώσεις αυτές λέμε ότι έχουμε επίθεση ανομοιόμορφων δεδομένων (skewness attack). Για να αποτρέπεται η παραπάνω επίθεση προτείνεται το μοντέλο της t-εγγύτητας. Μια κλάση ισοδυναμίας ικανοποιεί την t-εγγύτητα αν η απόσταση μεταξύ της κατανομής ενός ευαίσθητου γνωρίσματος στην κλάση αυτή και της κατανομής του γνωρίσματος αυτού στον συνολικό πίνακα δεν είναι μεγαλύτερη από ένα κατώφλι t. Ένας πίνακας δεδομένων ικανοποιεί την t-εγγύτητα αν όλες οι κλάσεις ισοδυναμίας του ικανοποιούν την παραπάνω παραδοχή. Το μοντέλο χρησιμοποιεί για την μέτρηση της απόστασης μεταξύ δύο κατανομών στις ευαίσθητες τιμές την μετρική EMD. Είναι απαραίτητη η χρήση της μετρικής στις τιμές των γνωρισμάτων έτσι ώστε να ορίζεται μεταξύ οποιουδήποτε ζεύγους τιμών η απόσταση της βάσης. Η EMD βασίζεται στο ελάχιστο ποσό έργου που χρειάζεται για να μετασχηματιστεί μια κατανομή σε μια άλλη μετακινώντας μάζα κατανομής μεταξύ αυτών. Για αριθμητικά γνωρίσματα χρησιμοποιείται η διατεταγμένη απόσταση (ordered distance). Η διατεταγμένη απόσταση μεταξύ δύο τιμών υπολογίζεται με βάση το πλήθος των τιμών ανάμεσά τους. Για κατηγορικά δεδομένα υπάρχουν δύο μετρικές: της ίσης απόστασης (equal distance), όπου η απόσταση μεταξύ οποιονδήποτε κατηγορικών ορισμάτων ορίζεται ίση με ένα και της ιεραρχικής απόστασης (hierarchical distance) η οποία βασίζεται στο ελάχιστο επίπεδο στο οποίο μπορούν οι τιμές αυτές να γενικευθούν από κοινού σύμφωνα με την ιεραρχία.
+
+Για περισσότερες πληροφορίες:
+Li, N., T. Li, and S. Venkatasubramanian. t-closeness: Privacy beyond k-anonymity and l-diversity. in Data Engineering, 2007. ICDE 2007. IEEE 23rd International Conference on. 2007. IEEE</value>
+  </data>
+</root>
